@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz</h1>
+        <nav style="display: flex;flex-direction: column;">
+            <a href="istriangle.html"> Triangles </a>
+            <a href="hypotenuse.html"> Find the Hypotenuse </a>
+            <a href="area.html"> Lets Find Area </a>
+            <a href="quiz.html"> Triangle Quiz </a>
+        </nav>
+    </header>
+    <main class="quiz-main">
+        <h1>Lets See How Much You Learned So far</h1>
+        <h3>For each correct answer you will get 1 point</h3>
+        <form class="quiz-form">
+
+            <div class="question-container">
+                <p>If a triangle has angles 135o, 15o, 30o. Which type of triangle it is?</p>
+                <label><input type="radio" value="Acute" name="question1">Acute</label>
+                <label><input type="radio" value="Obtuse" name="question1">Obtuse</label>
+                <label><input type="radio" value="Isoceles" name="question1">Isoceles</label>
+            </div>
+            <div class="question-container">
+                <p>If a triangle has angles 70o, 60o, 50o. Which type of triangle it is?</p>
+                <label><input type="radio" value="Acute" name="question2">Acute</label>
+                <label><input type="radio" value="Obtuse" name="question2">Obtuse</label>
+                <label><input type="radio" value="Isoceles" name="question2">Isoceles</label>
+            </div>
+            <div class="question-container">
+                <p>If a triangle has angles 40o, 100o, 40o Which type of triangle it is?</p>
+                <label><input type="radio" value="Acute" name="question3">Acute</label>
+                <label><input type="radio" value="Obtuse" name="question3">Obtuse</label>
+                <label><input type="radio" value="Isoceles" name="question3">Isoceles</label>
+            </div>
+            <div class="question-container">
+                <p>If a triangle has 2 angles of 75o. What is the measure of third angle in degree?</p>
+                <label><input type="radio" value="25" name="question4">25</label>
+                <label><input type="radio" value="30" name="question4">30</label>
+                <label><input type="radio" value="15" name="question4">15</label>
+            </div>
+            <div class="question-container">
+                <p>If a triangle has 2 sides with equal lengths and 75o angle between them. What is the type of
+                    triangle?
+                </p>
+                <label><input type="radio" value="Equilateral" name="question5">Equilateral</label>
+                <label><input type="radio" value="Right" name="question5">Right</label>
+                <label><input type="radio" value="Isoceles" name="question5">Isoceles</label>
+            </div>
+        </form>
+    </main>
+    <button id="scored" class="btn-check">Submit Answer</button>
+    <div id="output"></div>
+    <script src="quiz.js"></script>
+    <footer class="footer" style="position: relative;">
+        <ul class="footer-list">
+
+            <a class="footer-h" href="https://www.instagram.com/xii.vi.mcmxcvii"><img alt="instagram"
+                    src="icons/instagram.svg"></a>
+
+            <a class="footer-h" href="https://twitter.com/jzzrht"><img alt="twitter" src="icons/twitter.svg"></a>
+
+            <a class="footer-h" href="https://github.com/xii-vi"><img alt="github" src="icons/github.svg"></a>
+
+            <a class="footer-h" href="https://www.linkedin.com/in/rohit-abhishek"><img alt="linkedin"
+                    src="icons/linkedin.svg"></a>
+
+        </ul>
+    </footer>
+</body>
+
+</html>
